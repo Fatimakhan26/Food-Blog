@@ -6,28 +6,28 @@ export default function Content() {
 
     <h1 className="text-center font-semibold p-2 pt-6 text-4xl font-serif">Harmful Effects Of Junk Food</h1>
      
-     <div className="flex justify-between space-x-4 p-4">
+     <div className="grid grid-col-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 ml-32">
     
         <Image
           src="/zinger.avif" 
           alt=""
           width={250}
          height={400}
-          className="w-1/3 h-auto"
+          className="w-1/2 sm:w-1/1 h-auto"
         />
         <Image
             src="/rollparhta.jpg" 
             alt=""
-            width={200}
-            height={200}
-            className="w-1/3 h-auto"
+            width={250}
+            height={400}
+            className="w-1/2 sm:w-1/1 h-auto"
         />
         <Image
             src="/pizza.jpg" 
             alt=""
-            width={200}
-            height={200}
-            className="w-1/3 h-auto"
+            width={250}
+            height={400}
+            className="w-1/2 h-auto"
         /> 
       </div>
       <div>
