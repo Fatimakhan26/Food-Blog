@@ -18,7 +18,7 @@ const page = () => {
     />
     <div className="text-center lg:w-2/3 w-full">
       
-      <p className="mb-8 leading-relaxed text-justify">
+      <p className="mb-8 leading-relaxed text-justify mx-auto">
       Unhealthy food is often characterized by high levels of sugar, salt, unhealthy fats, and artificial 
       ingredients, while lacking essential nutrients such as vitamins, minerals, and fiber. Common examples
        include fast food, sugary snacks, processed meals, and sodas. While these foods may be convenient and
